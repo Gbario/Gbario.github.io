@@ -1,0 +1,25 @@
+
+.contenedorPrincipal{
+    outline: black solid 1px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+    align-items: center;
+    
+}
+.header{
+    outline: black solid 1px;
+    display: block;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+    align-items: center;
+    
+}
+.input{
+    text-align: top;
+    width: 100%;
+    height: 200px;
+}
