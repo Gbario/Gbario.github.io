@@ -1,0 +1,23 @@
+
+.contenedorPrincipal{
+    outline: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+    align-items: center;
+    
+}
+.contenedorSecundario{
+    outline: solid black 1px;
+    display: flex;
+
+}
+.imagen{
+    padding: 10px;
+    margin: 10px;
+}
+.boton{
+    margin: 5px;
+}
