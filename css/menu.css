@@ -10,7 +10,6 @@
     
 }
 .contenedorSecundario{
-    outline: solid black 1px;
     display: flex;
 
 }
@@ -20,4 +19,6 @@
 }
 .boton{
     margin: 5px;
+    padding: 5px;
+    font-size: larger;
 }

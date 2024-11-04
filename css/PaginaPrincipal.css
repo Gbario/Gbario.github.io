@@ -2,24 +2,76 @@
 .contenedorPrincipal{
     outline: black solid 1px;
     display: flex;
+    flex-direction: column;
     margin: 20px;
     padding: 20px;
     width: 90%;
-    align-items: center;
+    
+    border-radius: 5px;
     
 }
 .header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.contenedorSecundario{
+    border-radius: 5px;
+    margin: 10px;
+    width: 100%;
+    text-align: right;
+
+}
+.seleccionar{
     outline: black solid 1px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
     display: block;
     display: flex;
-    margin: 20px;
-    padding: 20px;
-    width: 90%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    
     align-items: center;
     
 }
-.input{
+.select{
+    min-width: 200px;
+}
+.crear{
+    outline: black solid 1px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    display: block;
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    
+    width: 100%;
+    align-items: center; 
+}
+.textarea{
+    border-radius: 5px;
+    width: 100%;
     max-width: 100%;
-    max-height: 10px;
-    overflow-y: scroll;
+    height: 600px;
+    
+}
+.boton{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 8px;
+    font-size: small;
+    
+    
+    
+}
+.input{
+    width: 30%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 100px;
 }

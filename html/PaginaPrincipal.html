@@ -5,24 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/PaginaPrincipal.css">
     <script src="../server.js"></script>
+    <script src="../PaginaPrincipal.js"></script>
     <title>Pagina Principal</title>
 </head>
 <header>
-    <div class="header">
-        <select name="" id="">
-            <option value="1">Juan Perez</option>
-            <option value="2">Carlos Rodriguez</option>
-            <option value="3"></option>
-            <option value="4"></option>
-            <option value="5"></option>
+</header>
+<body>
+    <div class="contenedorPrincipal" >
+<div class="header">
+    <div class="seleccionar">
+        <p style="padding: 10px;">Seleccionar</p>
+        <select class="select" onchange="cargarInfoSelect(this)" id="select">
+            <option value="0"></option>
+            
              </select>
              
     </div>
-    </header>
-<body>
-   <div class="contenedorPrincipal">
+    <div class="crear">
+        <p style="padding: 10px;">Crear</p>
+        <input type="text" id="nombre" class="input" placeholder="Nombre">
+        <button onclick="agregarNombre()" class="boton">Crear</button>
+    </div>
+</div>
     
-    <input type="text" class="input" placeholder="Información " >
+    <textarea type="text" class="textarea" rows="50" cols="10" placeholder="Información "></textarea>
+    <button onclick="guardarInformacion()" style="width: 100px; align-self: flex-end;" class="boton">Guardar</button>
+
+    <div class="contenedorSecundario">
+        
+    </div>
+    
    </div>
 </body>
 </html>
